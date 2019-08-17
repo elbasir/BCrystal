@@ -29,7 +29,7 @@ parmas = {
 'objective':'binary:logistic'
 }
 
-## Assigning weights for each class because our data set is imbalanced.
+## Assigning weights for each class because our data set is imbalanced and train the model.
 weights = np.zeros(len(y_train))
 weights[y_train1 == 0] = 1
 weights[y_train1 == 1] = 2.94
