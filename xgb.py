@@ -1,6 +1,6 @@
 #Code to run for testing on new protein sequences
 
-import matplotlib as mpl.
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 from xgboost import XGBClassifier
 import xgboost as xgb
